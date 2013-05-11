@@ -4,7 +4,8 @@ module Podlove
   module Web
     module Player
       module Rails
-        # Your code goes here...
+        class Engine < ::Rails::Engine
+        end
       end
     end
   end

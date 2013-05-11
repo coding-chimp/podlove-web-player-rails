@@ -1,4 +1,4 @@
-# Podlove::Web::Player::Rails
+# Podlove Web Player Rails
 
 TODO: Write a gem description
 
