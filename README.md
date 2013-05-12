@@ -1,4 +1,5 @@
-# Podlove Web Player Rails [![Build Status][bs img]][bs] [![Code Climate][cc img]][cc] [![Dependency Status][ds img]][ds] #
+# Podlove Web Player Rails
+# [![Gem Version][gv img]][gv] [![Build Status][bs img]][bs] [![Code Climate][cc img]][cc] [![Dependency Status][ds img]][ds]
 
 Brings the [Podlove Web Player][pwp] goodness to Rails 3.
 
@@ -33,6 +34,8 @@ Feel free to open an issue ticket if you find something that could be improved. 
 * If it's an issue pertaining the stylesheet or javascripts, please report it to the [podlove-web-player][pwpg] project.
 * If the stylesheet or javascripts are outdated, feel free to open an issue and prod me to get that thing updated. You could, of course, also fork the gem and send me an pull request with the update.
 
+[gv img]: https://badge.fury.io/rb/podlove-web-player-rails.png 
+[gv]: https://rubygems.org/gems/podlove-web-player-rails
 [bs img]: https://travis-ci.org/coding-chimp/podlove-web-player-rails.png?branch=master
 [bs]: https://travis-ci.org/coding-chimp/podlove-web-player-rails
 [cc img]: https://codeclimate.com/github/coding-chimp/podlove-web-player-rails.png
