@@ -1,4 +1,5 @@
-# Podlove Web Player Rails [![Gem Version][gv img]][gv] [![Build Status][bs img]][bs] [![Code Climate][cc img]][cc] [![Dependency Status][ds img]][ds] #
+# Podlove Web Player Rails
+[![Gem Version][gv img]][gv] [![Build Status][bs img]][bs] [![Code Climate][cc img]][cc] [![Dependency Status][ds img]][ds]
 
 Brings the [Podlove Web Player][pwp] goodness to Rails 3.
 
