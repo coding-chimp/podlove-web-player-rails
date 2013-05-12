@@ -1,4 +1,4 @@
-# Podlove Web Player Rails #
+# Podlove Web Player Rails [![Build Status](https://travis-ci.org/coding-chimp/podlove-web-player-rails.png?branch=master)](https://travis-ci.org/coding-chimp/podlove-web-player-rails) #
 
 Brings the [Podlove Web Player][pwp] goodness to Rails 3.
 
