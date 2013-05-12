@@ -1,4 +1,4 @@
-# Podlove Web Player Rails [![Build Status](https://travis-ci.org/coding-chimp/podlove-web-player-rails.png?branch=master)](https://travis-ci.org/coding-chimp/podlove-web-player-rails) [![Code Climate](https://codeclimate.com/github/coding-chimp/podlove-web-player-rails.png)](https://codeclimate.com/github/coding-chimp/podlove-web-player-rails) #
+# Podlove Web Player Rails [![Build Status][bs img]][bs] [![Code Climate][cc img]][cc] [![Dependency Status][ds img]][ds] #
 
 Brings the [Podlove Web Player][pwp] goodness to Rails 3.
 
@@ -32,6 +32,13 @@ Feel free to open an issue ticket if you find something that could be improved. 
 
 * If it's an issue pertaining the stylesheet or javascripts, please report it to the [podlove-web-player][pwpg] project.
 * If the stylesheet or javascripts are outdated, feel free to open an issue and prod me to get that thing updated. You could, of course, also fork the gem and send me an pull request with the update.
+
+[bs img]: https://travis-ci.org/coding-chimp/podlove-web-player-rails.png?branch=master
+[bs]: https://travis-ci.org/coding-chimp/podlove-web-player-rails
+[cc img]: https://codeclimate.com/github/coding-chimp/podlove-web-player-rails.png
+[cc]: https://codeclimate.com/github/coding-chimp/podlove-web-player-rails
+[ds img]: https://gemnasium.com/coding-chimp/podlove-web-player-rails.png
+[ds]: https://gemnasium.com/coding-chimp/podlove-web-player-rails
 
 [pwp]: http://podlove.org/podlove-web-player/
 [pwpw]: http://wordpress.org/extend/plugins/podlove-web-player/faq/
