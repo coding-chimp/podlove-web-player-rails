@@ -18,11 +18,11 @@ Add this line to `app/assets/javascripts/application.js`:
 
 And add this line to `app/assets/stylesheets/application.css.scss`:
 
-    //= @import "podlove-web-player";
+    @import "podlove-web-player";
 
 ## Usage ##
 
-Use the `podloveaudio` or `podlovevideo` helpers to inplement the audio or video player into your views. The helper is modelled after the shortcode of the Podlove Web Player WordPress plugin and can be given all the options mentioned in it's [FAQ][pwpw] as a hash. Basic usage would look like this:
+Use the `podloveaudio` or `podlovevideo` helpers to inplement the audio or video player into your views. The helper is modelled after the shortcodes of the Podlove Web Player WordPress plugin and can be given all the options mentioned in it's [FAQ][pwpw] as a hash. Basic usage would look like this:
 
     <%= podloveaudio(src: 'http://mysite.com/mymedia.mp3', duration: '03:33', title: 'My track') %>
 
