@@ -27,6 +27,8 @@ Use the `podloveaudio` or `podlovevideo` helpers to inplement the audio or video
 
     <%= podloveaudio(src: 'http://mysite.com/mymedia.mp3', duration: '03:33', title: 'My track') %>
 
+You can also read a description of all available options in the [Documentation][doc].
+
 ## Contributing ##
 
 Feel free to open an issue ticket if you find something that could be improved. A couple notes:
@@ -45,4 +47,5 @@ Feel free to open an issue ticket if you find something that could be improved. 
 
 [pwp]: http://podlove.org/podlove-web-player/
 [pwpw]: http://wordpress.org/extend/plugins/podlove-web-player/faq/
+[doc]: http://rdoc.info/github/coding-chimp/podlove-web-player-rails/master/frames
 [pwpg]: https://github.com/podlove/podlove-web-player
