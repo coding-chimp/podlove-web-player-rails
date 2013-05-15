@@ -5,7 +5,7 @@ require 'podlove-web-player-rails/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "podlove-web-player-rails"
-  gem.version       = Podlove::Web::Player::Rails::VERSION
+  gem.version       = PodloveWebPlayerRails::VERSION
   gem.authors       = ["Bastian Bartmann"]
   gem.email         = ["xarfai27@gmail.com"]
   gem.description   = %q{Podlove Web Player for Rails 3.}
