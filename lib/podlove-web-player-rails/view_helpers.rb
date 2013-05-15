@@ -21,7 +21,7 @@ module Podlove
             html << "<source src='#{options[:mp3]}' type='#{type}/mpeg'></source>"               if options[:mp3]
             html << "<source src='#{options[:ogg]}' type='#{type}/ogg; codecs=vorbis'></source>" if options[:ogg]
             html << "<source src='#{options[:opus]}' type='#{type}/ogg; codecs=opus'></source>"  if options[:opus]
-            html << "<source src='#{options[:opus]}' type='#{type}/webm'></source>"              if options[:webm]
+            html << "<source src='#{options[:webm]}' type='#{type}/webm'></source>"              if options[:webm]
             html << "</#{type}>"
 
             [:src, :type, :mp4, :mp3, :ogg, :opus, :webm].each{ |key| options.delete(key) }
