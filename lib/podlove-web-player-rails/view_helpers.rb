@@ -14,7 +14,9 @@ module Podlove
           private
 
           def podlove(type, options = {})
-            html = "<#{type} id='player'>"
+            id = "player_" + SecureRandom.hex(5)
+
+            html = "<#{type} id='#{id}'>"
             html << "<source src='#{options[:src]}'"\
                     "" + (options[:type] ? " type='#{options[:type]}'" : "") + "></source>"      if options[:src]
             html << "<source src='#{options[:mp4]}' type='#{type}/mp4'></source>"                if options[:mp4]
@@ -26,7 +28,7 @@ module Podlove
 
             [:src, :type, :mp4, :mp3, :ogg, :opus, :webm].each{ |key| options.delete(key) }
 
-            script = "$('#player').podlovewebplayer(#{options.to_json});"
+            script = "$('##{id}').podlovewebplayer(#{options.to_json});"
 
             return raw html + "\n" + javascript_tag(script)
           end
