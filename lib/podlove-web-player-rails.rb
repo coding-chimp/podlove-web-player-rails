@@ -5,6 +5,7 @@ module Podlove
   module Web
     module Player
       module Rails
+        # Loads all the needed assets
         class Engine < ::Rails::Engine
           initializer "podlove-web-player-rails.view_helpers" do |app|
             ActionView::Base.send :include, ViewHelpers
