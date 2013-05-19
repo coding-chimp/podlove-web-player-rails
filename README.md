@@ -17,7 +17,11 @@ Add this line to `app/assets/javascripts/application.js`:
 
     //= require podlove-web-player-rails
 
-And add this line to `app/assets/stylesheets/application.css.scss`:
+And add this line to `app/assets/stylesheets/application.css`:
+
+    *= require podlove-web-player
+
+Or add this line to `app/assets/stylesheets/application.css.scss`:
 
     @import "podlove-web-player";
 
