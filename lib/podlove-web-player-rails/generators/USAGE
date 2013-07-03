@@ -1,0 +1,3 @@
+To copy the files needed for flash and silverlight fallback to your Rails App, just do:
+
+    rails generate podlove_web_player_rails:install
