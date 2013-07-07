@@ -99,7 +99,7 @@ module PodloveWebPlayerRails
     def podlove(type, options = {})
       id = "player_" + SecureRandom.hex(5)
   
-      html = "<#{type} id='#{id}'>"
+      html = "<#{type} id='#{id}' preload=\"none\">"
       html << "<source src='#{options[:src]}'"\
               "" + (options[:type] ? " type='#{options[:type]}'" : "") + "></source>"      if options[:src]
       html << "<source src='#{options[:mp4]}' type='#{type}/mp4'></source>"                if options[:mp4]
