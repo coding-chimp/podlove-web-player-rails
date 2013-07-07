@@ -111,7 +111,7 @@ module PodloveWebPlayerRails
   
       [:src, :type, :mp4, :mp3, :ogg, :opus, :webm].each{ |key| options.delete(key) }
   
-      script = "$('##{id}').podlovewebplayer(#{options.to_json});"
+      script = "jQuery('##{id}').podlovewebplayer(#{options.to_json});"
   
       return raw html + "\n" + javascript_tag(script)
     end
