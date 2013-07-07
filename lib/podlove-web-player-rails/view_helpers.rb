@@ -100,7 +100,7 @@ module PodloveWebPlayerRails
 
     def podlove(type, options = {})
       id = "player_" + SecureRandom.hex(5)
-      preload ||= "auto"
+      preload = options[:preload] || "auto"
   
       html = "<#{type} id='#{id}' preload=#{preload}>"
       html << "<source src='#{options[:src]}'"\
