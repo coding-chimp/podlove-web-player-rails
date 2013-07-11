@@ -1,4 +1,4 @@
-require 'rails/generators/base'
+require 'rails/generators'
 
 module PodloveWebPlayerRails
   module Generators
