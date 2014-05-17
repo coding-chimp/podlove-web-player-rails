@@ -34,6 +34,10 @@ Use the `podloveaudio` or `podlovevideo` helpers to inplement the audio or video
 
 You can also read a description of all available options in the [Documentation][doc].
 
+## Versioning ##
+
+The major, minor, and patch version numbers mirror the version of the Podlove Web Player itself. Should a gem bug be discovered, a 4th version identifier will be added and incremented.
+
 ## Contributing ##
 
 Feel free to open an issue ticket if you find something that could be improved. A couple notes:
