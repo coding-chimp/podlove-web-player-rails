@@ -12,7 +12,7 @@ Add this line to your application's Gemfile:
 And then execute:
 
     $ bundle
-    $ rails g podlove-web-player-rails:install
+    $ rails g podlove_web_player_rails:install
 
 Add this line to `app/assets/javascripts/application.js`:
 
